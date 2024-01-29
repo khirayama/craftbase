@@ -9,6 +9,11 @@
 - Cloudflare R2
 - GitHub Actions
 
+## サポート
+
+- テーマ変更
+- 多言語
+
 ## UI
 
 - [しずかなインターネットの技術構成](https://zenn.dev/catnose99/articles/f8a90a1616dfb3)
