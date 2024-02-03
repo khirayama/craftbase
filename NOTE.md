@@ -2,6 +2,7 @@
 
 - Remix
 - TailwindCSS
+- i18next
 - Firebase Auth
 - Prisma
 - PlanetScale
@@ -11,8 +12,8 @@
 
 ## サポート
 
-- テーマ変更
-- 多言語
+- テーマ変更(デフォルトはlight)
+- 多言語(デフォルトは日本語)
 
 ## UI
 
