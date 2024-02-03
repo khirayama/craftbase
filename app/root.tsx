@@ -8,8 +8,11 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
+import { init as initI18n } from "~/libs/Provider";
 import { Provider } from "~/libs/Provider";
 import stylesheet from "~/tailwind.css";
+
+initI18n();
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
