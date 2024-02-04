@@ -1,8 +1,9 @@
 ## 技術構成
 
-- Remix
-- TailwindCSS
-- i18next
+- [Remix](https://remix.run/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [i18next](https://www.i18next.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
 - Firebase Auth
 - Prisma
 - PlanetScale
@@ -24,3 +25,6 @@
 - [Slider – Radix Primitives](https://www.radix-ui.com/primitives/docs/components/slider)
 - [推しフォントを語る「Inter」｜nanammeon](https://sizu.me/nanammeon/posts/0izw2ebh0ifx)
 - [UIデザインに最適！ 文字サイズが小さくてもくっきりと美しいフリーフォント「Inter」が待望のバージョンアップ | コリス](https://coliss.com/articles/build-websites/operation/work/inter-4-for-ui-design.html#google_vignette)
+- [Remix & Firebase Authentication - Invertase](https://invertase.io/blog/remix-firebase-auth)
+- [Firebase の認証機能だけを使う](https://zenn.dev/mobdev/articles/42969a794c31f4)
+- [セッション Cookie を管理する  |  Firebase Authentication](https://firebase.google.com/docs/auth/admin/manage-cookies?hl=ja)
