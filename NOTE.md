@@ -28,3 +28,5 @@
 - [Remix & Firebase Authentication - Invertase](https://invertase.io/blog/remix-firebase-auth)
 - [Firebase の認証機能だけを使う](https://zenn.dev/mobdev/articles/42969a794c31f4)
 - [セッション Cookie を管理する  |  Firebase Authentication](https://firebase.google.com/docs/auth/admin/manage-cookies?hl=ja)
+- [【連載】世界一わかりみの深いOAuth入門 〜 その2:アクセストークンとリフレッシュトークン 〜 | SIOS Tech. Lab](https://tech-lab.sios.jp/archives/25565#i-8)
+- [Firebase Authentication のトークン解説 | google-cloud-jp](https://medium.com/google-cloud-jp/firebase-auth-token-jp-d400a113a440)
