@@ -6,3 +6,5 @@
 /build
 /public/build
 .env
+
+/firebase-admin.json
