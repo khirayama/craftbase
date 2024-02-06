@@ -30,3 +30,4 @@
 - [セッション Cookie を管理する  |  Firebase Authentication](https://firebase.google.com/docs/auth/admin/manage-cookies?hl=ja)
 - [【連載】世界一わかりみの深いOAuth入門 〜 その2:アクセストークンとリフレッシュトークン 〜 | SIOS Tech. Lab](https://tech-lab.sios.jp/archives/25565#i-8)
 - [Firebase Authentication のトークン解説 | google-cloud-jp](https://medium.com/google-cloud-jp/firebase-auth-token-jp-d400a113a440)
+- [Firebase Auth で SSR するまでの道のり](https://zenn.dev/phi/scraps/555d99fd97ef7c)
