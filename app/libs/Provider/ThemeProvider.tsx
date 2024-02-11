@@ -4,7 +4,8 @@ import {
   createContext,
   useContext,
   useState,
-  useEffect
+  useEffect,
+  ReactNode,
 } from "react";
 
 type Theme = "light" | "dark";
@@ -35,7 +36,7 @@ export function useTheme(): [
   return useContext(ThemeContext);
 }
 
-export function ThemeProvider({ children }) {
+export function ThemeProvider(props: { children: ReactNode }) {
   const [th, setTheme] = useState<ThemeOption>("system");
   const theme = resolveTheme(th);
 
@@ -48,7 +49,7 @@ export function ThemeProvider({ children }) {
 
   return (
     <ThemeContext.Provider value={[th, setTheme]}>
-     {children}
+     {props.children}
     </ThemeContext.Provider>
   );
 }

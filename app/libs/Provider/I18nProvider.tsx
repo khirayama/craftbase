@@ -4,6 +4,7 @@ import {
   createContext,
   useContext,
   useState,
+  ReactNode,
 } from "react";
 import i18next from "i18next";
 
@@ -66,13 +67,13 @@ export function useI18n(): [
   return [lng, setLng];
 }
 
-export function I18nProvider({ children }) {
+export function I18nProvider(props: { children: ReactNode }) {
   const [, setLng] = useState<Lng>(options.fallbackLng);
   const lng = resolveLng();
 
   return (
     <I18nContext.Provider value={[lng, setLng]}>
-     {children}
+     {props.children}
     </I18nContext.Provider>
   );
 }
