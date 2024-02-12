@@ -20,7 +20,7 @@ services:
       - "8080:8080"
       - "3001:3001"
     volumes:
-      - ./app:/usr/server/app
-      - ./public:/usr/server/public
+      - .:/app
+      - /app/node_modules
 volumes:
   mysql_volume:
