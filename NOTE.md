@@ -16,6 +16,12 @@
 - テーマ変更(デフォルトはlight)
 - 多言語(デフォルトは日本語)
 
+## メモ
+
+```
+docker compose run web npx prisma migrate dev --name update-type-of-refreshtoken
+```
+
 ## UI
 
 - [しずかなインターネットの技術構成](https://zenn.dev/catnose99/articles/f8a90a1616dfb3)
